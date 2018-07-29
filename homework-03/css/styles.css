@@ -106,19 +106,14 @@ p {
     width: 420px;
 }
 
-div {
-    position: inherit;
-    width: 1263px;
-    margin-top: 30px;
-    padding-left: 560px;
-    padding-right: 560px;
-}
-
 .botton {
+    position: inherit;
     width: 100px;
     height: 25px;
     border: solid 1px;
-    margin-top: 30px;
+    margin-top: 60px;
+    margin-left: 460px;
+    margin-right: 460px;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 15px;
