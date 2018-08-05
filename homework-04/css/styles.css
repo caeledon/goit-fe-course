@@ -1,0 +1,225 @@
+body {
+    position: inherit;
+    width: 1170px;
+    margin: auto 30px;
+    margin-top: 38px;
+}
+
+.header {
+    width: 1150px;
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.logo {
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 30px;
+    text-transform: uppercase;
+    float: left;
+    color: #555252;
+}
+
+/* .logo::ﬁrst-letter {
+    font-family: "Roboto-Black";
+    font-weight: 900;
+    font-size: 30px;
+    color: #1abc9c; 
+} Не работает псевдоэлемент для первой буквы Логотипа.
+Пробовал оборачивать в <span>, все равно не могу добится эффекта как в макете
+(не могу добится вообще никакого эффекта).
+Подскажи пожалуйста, что я делаю не так. */
+
+.menu {
+    width: 530px;
+    list-style: none;
+    float: right;
+    font-family: Open Sans;
+    font-weight: 700;
+    margin-top: 27px;
+    padding: 0px;
+    text-transform: uppercase;
+}
+
+.list-item {
+    float: left;
+    margin-right: 35px;
+    text-decoration: none;
+    font-size: 14px;
+    list-style: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #0f0101;
+}
+
+a:hover {
+    color: #1abc9c;
+}
+
+h2 {
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 48px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #515151;
+    margin-top: 100px;
+    margin-bottom: 0;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+h2 span{
+    font-family: "Roboto", sans-serif;
+}
+
+h2::after {
+    display: block;
+    width: 164px;
+    height: 7px;
+    background-color: #1abc9c;
+    content: '';
+    margin-top: 32px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.catalog {
+    width: 1150px;
+    height: 945px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.catalog-list {
+    margin-top: 95px;
+    padding: 0;
+}
+
+.catalog-item {
+    float: left;
+    margin-top: 30px;
+    margin-right: 30px;
+    list-style: none;
+    width: 255px;
+    height: 322px;
+}
+
+.catalog-box {
+    width: 255px;
+    height: 325px;
+    background-color: #323232;
+}
+
+/* 
+.catalog-box:hover {
+    background-baccolor: #1abc9c;
+}  Не могу заставить background-color элемента div менять цвет как в макете.
+Прошу помощи.*/
+
+.catalog-box h3 {
+    float: left;
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-left: 14px;
+    margin-right: 14px;
+    margin-top: 8px;
+    margin-bottom: 14px;
+    color: #ffffff;
+
+}
+
+.catalog-box p {
+    float: right;
+    margin-right: 14px;
+    margin-left: 14px;
+    margin-top: 9px;
+    margin-bottom: 9px;
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.news {
+    width: 1150px;
+    height: 695px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 70px;
+}
+
+.news-list {
+    width: 1170px;
+    height: 695px;
+    margin-top: 85px;
+    padding: 0;
+}
+
+.news-item {
+    float: left;
+    margin-right: 30px;
+    list-style: none;
+    width: 350px;
+    height: 500px;
+}
+
+h4 {
+    font-family: "OpenSans-SemiBold", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px; 
+}
+
+h4::after {
+    display: block;
+    width: 136px;
+    height: 3px;
+    background-color: #1abc9c;
+    content: '';
+    margin-top: 10px;
+}
+
+.news-block p {
+    font-family: "OpenSans-Regular", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: justify;
+}
+
+.button {
+    width: 160px;
+    height: 40px;
+    background-color: #1abc9c;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 3px; 
+}
+
+.button p {
+    width: 160px;
+    height: 30px;
+    margin-top: 7px;
+    margin-bottom: 5px;
+    font-family: "OpenSans-Light", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #ffffff;
+    text-transform: capitalize;
+    text-align: center;
+    cursor: pointer;
+}
+
