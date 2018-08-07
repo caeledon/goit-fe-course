@@ -1,15 +1,74 @@
+@font-face {
+    font-family: "OpenSans Bold"; 
+    src: url(../fonts/OpenSans-Bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+   }
+
+   @font-face {
+    font-family: "OpenSans SemiBold"; 
+    src: url(../fonts/OpenSans-SemiBold.ttf);
+    font-weight: 600;
+    font-style: normal;
+   }
+
+   @font-face {
+    font-family: "OpenSans Regular"; 
+    src: url(../fonts/OpenSans-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+   }
+
+   @font-face {
+    font-family: "OpenSans Light"; 
+    src: url(../fonts/OpenSans-Light.ttf);
+    font-weight: 300;
+    font-style: normal;
+   }
+
+   @font-face {
+    font-family: "Roboto Black"; 
+    src: url(../fonts/Roboto-Black.ttf);
+    font-weight: 900;
+    font-style: normal;
+   }
+
+   @font-face {
+    font-family: "Roboto Bold"; 
+    src: url(../fonts/Roboto-Bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+   }
+
+   @font-face {
+    font-family: "Roboto Regular"; 
+    src: url(../fonts/Roboto-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+   }
+
+   @font-face {
+    font-family: "Roboto Light"; 
+    src: url(../fonts/Roboto-Light.ttf);
+    font-weight: 300;
+    font-style: normal;
+   }
+
 body {
-    position: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    position: relative;
     width: 1170px;
-    margin: auto 30px;
-    margin-top: 38px;
+    margin: auto; 
 }
 
 .header {
-    width: 1150px;
+    width: 1100px;
     height: 50px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: auto;    
 }
 
 .logo {
@@ -21,33 +80,32 @@ body {
     color: #555252;
 }
 
-/* .logo::ﬁrst-letter {
-    font-family: "Roboto-Black";
+.logo-decoration {
+    font-family: "Roboto";
     font-weight: 900;
-    font-size: 30px;
     color: #1abc9c; 
-} Не работает псевдоэлемент для первой буквы Логотипа.
-Пробовал оборачивать в <span>, все равно не могу добится эффекта как в макете
-(не могу добится вообще никакого эффекта).
-Подскажи пожалуйста, что я делаю не так. */
+}
 
 .menu {
-    width: 530px;
-    list-style: none;
     float: right;
+    width: 495px;
+    list-style: none;
     font-family: Open Sans;
     font-weight: 700;
-    margin-top: 27px;
-    padding: 0px;
     text-transform: uppercase;
+    margin-top: 27px;
+    padding: 0;
 }
 
 .list-item {
     float: left;
-    margin-right: 35px;
     text-decoration: none;
     font-size: 14px;
     list-style: none;
+}
+
+.list-item:nth-child(-n+5) {
+    margin-right: 35px;
 }
 
 .menu a {
@@ -60,20 +118,14 @@ a:hover {
 }
 
 h2 {
-    font-family: Roboto;
-    font-weight: 900;
+    font-family: Roboto, sans-serif;
+    font-weight: 1150;
     font-size: 48px;
     text-transform: uppercase;
     text-align: center;
     color: #515151;
     margin-top: 100px;
     margin-bottom: 0;
-    margin-right: 15px;
-    margin-left: 15px;
-}
-
-h2 span{
-    font-family: "Roboto", sans-serif;
 }
 
 h2::after {
@@ -88,77 +140,75 @@ h2::after {
 }
 
 .clearfix::after {
-    content: "";
+    content: " ";
     display: table;
     clear: both;
 }
 
 .catalog {
-    width: 1150px;
-    height: 945px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.catalog-list {
-    margin-top: 95px;
-    padding: 0;
+    width: 1165px;
+    margin-top: 90px;
 }
 
 .catalog-item {
     float: left;
     margin-top: 30px;
-    margin-right: 30px;
-    list-style: none;
+    margin-right: 35px;
     width: 255px;
     height: 322px;
-}
-
-.catalog-box {
-    width: 255px;
-    height: 325px;
+    box-sizing: border-box;
     background-color: #323232;
 }
 
-/* 
-.catalog-box:hover {
-    background-baccolor: #1abc9c;
-}  Не могу заставить background-color элемента div менять цвет как в макете.
-Прошу помощи.*/
+.catalog-item:hover {
+    background-color: #1abc9c;
+} 
 
-.catalog-box h3 {
+img {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    object-fit: cover;
+}
+
+.price {
+    height: 40px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.price p {
     float: left;
+    width: 150px;
+    height: 20px; 
     font-family: Roboto;
     font-weight: 900;
     font-size: 18px;
     text-transform: uppercase;
-    margin-left: 14px;
-    margin-right: 14px;
-    margin-top: 8px;
-    margin-bottom: 14px;
     color: #ffffff;
-
+    margin: 0px;
+    padding: 10px;
 }
 
-.catalog-box p {
+.price span {
     float: right;
-    margin-right: 14px;
-    margin-left: 14px;
-    margin-top: 9px;
-    margin-bottom: 9px;
+    width: 32px;
+    height: 20px;
     font-family: Roboto;
     font-weight: 900;
     font-size: 18px;
     text-transform: uppercase;
     color: #ffffff;
-}
+    padding: 10px;
+    background: rgba( 140, 140, 140, 0.70);
+  }
 
 .news {
-    width: 1150px;
+    width: 1165px;
     height: 695px;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding-bottom: 70px;
+    margin: auto;
 }
 
 .news-list {
@@ -170,7 +220,7 @@ h2::after {
 
 .news-item {
     float: left;
-    margin-right: 30px;
+    margin-right: 35px;
     list-style: none;
     width: 350px;
     height: 500px;

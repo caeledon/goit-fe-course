@@ -6,74 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/styles.css">
-    <title>@font-face</title>
-  <style>
-   @font-face {
-    font-family: "OpenSans"; 
-    src: url("**fonts/OpenSans-Bold.ttf**");
-    font-weight: "**700**";
-    font-style: normal;
-   }
-
-   @font-face {
-    font-family: "OpenSans"; 
-    src: url("**fonts/OpenSans-SemiBold.ttf**");
-    font-weight: "**600**";
-    font-style: normal;
-   }
-
-   @font-face {
-    font-family: "OpenSans"; 
-    src: url("**fonts/OpenSans-Regular.ttf**");
-    font-weight: "**400**";
-    font-style: normal;
-   }
-
-   @font-face {
-    font-family: "OpenSans"; 
-    src: url("**fonts/OpenSans-Light.ttf**");
-    font-weight: "**300**";
-    font-style: normal;
-   }
-
-   @font-face {
-    font-family: "Roboto"; 
-    src: url("**fonts/Roboto-Black.ttf**");
-    font-weight: "**900**";
-    font-style: normal;
-   }
-
-   @font-face {
-    font-family: "Roboto"; 
-    src: url("**fonts/Roboto-Bold.ttf**");
-    font-weight: "**700**";
-    font-style: normal;
-   }
-
-   @font-face {
-    font-family: "**Roboto**"; 
-    src: url("**fonts/Roboto-Regular.ttf**");
-    font-weight: "400";
-    font-style: normal;
-   }
-
-   @font-face {
-    font-family: "Roboto"; 
-    src: url("**fonts/Roboto-Light.ttf**");
-    font-weight: "**300**";
-    font-style: normal;
-   }
-
-   </style>
-   <title>Document</title>
+    <title>Document</title>
 </head>
 <body>
     <header class="header clearfix">
         <h1 class="logo">
-            <!-- <span> -->
-                mart
-            <!-- </span> -->
-        </h1>
+            <span class="logo-decoration">m</span>art
+            </h1>
         <ul class="menu clearfix">
             <li class="list-item"><a href="#">home</a></li>
             <li class="list-item"><a href="#">about us</a></li>
@@ -84,67 +23,66 @@
         </ul>
     </header>
     <main>
-        <section class="catalog">
+        <section class="gallery">
             <h2><span>featured products</span></h2>
-            <ul class="catalog-list clearfix">
-                <li class="catalog-item">
-                    <div class="catalog-box clearfix">
-                        <img src="img/women's-shoes.jpg" alt="blue summer woman's shoe" width="255">
-                        <h3>blue tshirt</h3>
-                        <div></div>
-                        <p>$26</p>
+            <div class="catalog clearfix">
+                <div class="catalog-item clearfix">
+                    <img src="img/women's-shoes.jpg" alt="blue summer woman's shoe" width="255">
+                    <div class="price clearfix">
+                        <p>blue tshirt</p>
+                        <span>$26</span>
                     </div>
-                </li>
-                <li class="catalog-item">
-                    <div class="catalog-box">
-                        <img src="img/women's-braided-belt.jpg" alt="women's braided with a copper buckle" width="255">
-                        <h3>women shirt</h3>
-                        <p>$31</p>
+                </div>
+                <div class="catalog-item clearfix">
+                    <img src="img/women's-braided-belt.jpg" alt="women's braided with a copper buckle" width="255">
+                    <div class="price">
+                        <p>women shirt</p>
+                        <span>$31</span>
                     </div>
-                </li>
-                <li class="catalog-item">
-                    <div class="catalog-box">
-                        <img src="img/men's-tart-hat.jpg" alt="man's hat in a scottish cage" width="255">
-                        <h3>yellow tshirt</h3>
-                        <p>$21</p>
+                </div>
+                <div class="catalog-item clearfix">
+                    <img src="img/men's-tart-hat.jpg" alt="man's hat in a scottish cage" width="255">
+                    <div class="price">
+                        <p>yellow tshirt</p>
+                        <span>$21</span>
                     </div>
-                </li>
-                <li class="catalog-item">
-                    <div class="catalog-box">
-                        <img src="img/blue-handbag.jpg" alt="blue bag with leather strap" width="255">
-                        <h3>cool lingerie</h3>
-                        <p>$56</p>
+                </div>
+                <div class="catalog-item clearfix">
+                    <img src="img/blue-handbag.jpg" alt="blue bag with leather strap" width="255">
+                    <div class="price">
+                        <p>cool lingerie</p>
+                        <span>$56</span>
                     </div>
-                </li>
-                <li class="catalog-item">
-                    <div class="catalog-box">
-                        <img src="img/women's-leather-bag.jpg" alt="black women's leather handbag" width="255">
-                        <h3>blue tshirt</h3>
-                        <p>$26</p>
+                </div>
+                <div class="catalog-item clearfix">
+                    <img src="img/women's-leather-bag.jpg" alt="black women's leather handbag" width="255">
+                    <div class="price">
+                        <p>blue tshirt</p>
+                        <span>$26</span>
                     </div>
-                </li>
-                <li class="catalog-item">
-                    <div class="catalog-box">
-                        <img src="img/black-leather-belt.jpg" alt="black female belt with copper buckle" width="255">
-                        <h3>women shirt</h3>
-                        <p>$31</p>
+                </div>
+                <div class="catalog-item clearfix">
+                    <img src="img/black-leather-belt.jpg" alt="black female belt with copper buckle" width="255">
+                    <div class="price">
+                        <p>women shirt</p>
+                        <span>$31</span>
                     </div>
-                </li>
-                <li class="catalog-item">
-                    <div class="catalog-box">
-                        <img src="img/yellow-leather-summer-shoes.jpg" alt="men's braided leather shoes" width="255">
-                        <h3>yellow tshirt</h3>
-                        <p>$21</p>
+                </div>
+                <div class="catalog-item clearfix">
+                    <img src="img/yellow-leather-summer-shoes.jpg" alt="men's braided leather shoes" width="255">
+                    <div class="price">
+                        <p>yellow tshirt</p>
+                        <span>$21</span>
                     </div>
-                </li>
-                <li class="catalog-item">
-                    <div class="catalog-box">
-                        <img src="img/women's-sun-glasses.jpg" alt="women's glasses from the sun with wide glasses" width="255">
-                        <h3>cool lingerie</h3>
-                        <p>$56</p>
+                </div>
+                <div class="catalog-item clearfix">
+                    <img src="img/women's-sun-glasses.jpg" alt="women's glasses from the sun with wide glasses" width="255">
+                    <div class="price">
+                        <p>cool lingerie</p>
+                        <span>$56</span>
                     </div>
-                </li>
-            </ul>
+                </div>
+            </div>
         </section>
         <section class="news">
             <h2><span>latest news</span></h2>
