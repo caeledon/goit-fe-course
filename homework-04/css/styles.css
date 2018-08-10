@@ -73,7 +73,7 @@ main {
 
 .logo {
     float: left;
-    font-family: "Roboto";
+    font-family: "Roboto Light";
     font-weight: 300;
     font-size: 30px;
     text-transform: uppercase;
@@ -81,7 +81,7 @@ main {
 }
 
 .logo-decoration {
-    font-family: "Roboto";
+    font-family: "Roboto Black";
     font-weight: 900;
     color: #1abc9c; 
 }
@@ -118,7 +118,7 @@ a:hover {
 }
 
 h2 {
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto Black", sans-serif;
     font-size: 48px;
     text-transform: uppercase;
     color: #515151;
@@ -202,7 +202,7 @@ img {
     float: left;
     width: 150px;
     height: 20px; 
-    font-family: Roboto;
+    font-family: "Roboto Black";
     font-weight: 900;
     font-size: 18px;
     text-transform: uppercase;
@@ -215,7 +215,7 @@ img {
     float: right;
     width: 32px;
     height: 20px;
-    font-family: Roboto;
+    font-family: "Roboto Black";
     font-weight: 900;
     font-size: 18px;
     text-transform: uppercase;
