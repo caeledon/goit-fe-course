@@ -102,6 +102,7 @@ main {
     text-decoration: none;
     font-size: 14px;
     list-style: none;
+    margin-top: 25px;
 }
 
 .list-item:nth-child(-n+5) {
