@@ -129,7 +129,7 @@ main {
 }
 
 .wrapper {
-    background-image: url(img/Four-girls-are-walking-and-laughing.jpg);  
+    background-image: url(../img/four-girls-are-walking-and-laughing.jpg);  
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -170,6 +170,7 @@ main {
     position: absolute;
     width: 104px;
     height: 104px;
+    background-color: rgba(78, 198, 171, 0.65);
     left: 0;
     bottom: 0;
     cursor: pointer;
@@ -179,6 +180,7 @@ main {
     position: absolute;
     width: 104px;
     height: 104px;
+    background-color: rgba(78, 198, 171, 0.65);
     right: 0;
     bottom: 0;
     cursor: pointer;
@@ -189,8 +191,7 @@ main {
     width: 104px;
     height: 104px;
     content: "";
-    background-color: rgba(78, 198, 171, 0.65);
-    background-image: url(img/before.png);
+    background-image: url(../img/before.png);
     background-repeat: no-repeat;
     background-position: center;
     left: 0px;
@@ -202,8 +203,7 @@ main {
     width: 104px;
     height: 104px;
     content: "";
-    background-color: rgba(78, 198, 171, 0.65);
-    background-image: url(img/after.png);
+    background-image: url(../img/after.png);
     background-repeat: no-repeat;
     background-position: center;
     right: 0px;
