@@ -121,7 +121,6 @@ a:hover {
 main {
     position: inherit;
     margin: 0;
-    padding: auto; 
 }
 
 .wrapper {
@@ -305,7 +304,7 @@ main {
     left: 10px;
     background-color: rgba( 0, 0, 0, 0.54);
     z-index: 5;
-    /* display: none; */
+    display: none;
 }
 
 button {
@@ -340,7 +339,7 @@ button {
     position: absolute;
     display: inline-flex;
     justify-content: flex-start;
-    align-items: baseline;
+    align-items: center;
     width: 166px;
     height: 50px;
     top: 138px;
@@ -355,6 +354,7 @@ button {
     font-weight: 300;
     font-size: 30px;
     color: #ffffff;
+    margin: 10px 12px;
 }
 
 .cart-info {    
@@ -363,6 +363,15 @@ button {
     font-size: 14px;
     text-transform: uppercase;
     color: #fefefe;
+    margin: 16px 7px;
+}
+
+.rectangle button:hover {
+    background-color: #1abc9c;
+}
+
+.rectangle div:hover {
+    background-color: #1abc9c;
 }
 
 .catalog-item:hover .rectangle{
