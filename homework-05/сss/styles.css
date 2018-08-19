@@ -125,10 +125,7 @@ main {
 
 .wrapper {
     position: relative;
-}
-
-.wrapper {
-    background-image: url(../img/four-girls-are-walking-and-laughing.jpg);  
+    box-sizing: border-box;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -407,6 +404,7 @@ img {
 }
 
 footer {
+    position: inherit;
     height: 20px;
     margin: 0;
     padding: 40px 410px 40px 410px;
