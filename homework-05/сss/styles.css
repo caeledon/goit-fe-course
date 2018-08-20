@@ -128,13 +128,6 @@ main {
     box-sizing: content-box;
 }
 
-/* .wrapper {
-    background-image: url(img/four-girls.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-} */
-
 .text {
     display: inline-block;
     position: absolute;
