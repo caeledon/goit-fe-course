@@ -125,7 +125,10 @@ main {
 
 .wrapper {
     position: relative;
-    box-sizing: border-box;
+}
+
+.wrapper {
+    background-image: url(./img/four-girls-are-walking-and-laughing.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
