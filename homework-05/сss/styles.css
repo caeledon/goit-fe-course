@@ -27,12 +27,6 @@
     font-style: normal;
    }
 
-   @font-face {
-    font-family: "pe-icon-7-stroke"; 
-    src: url(../fonts/Pe-icon-7-stroke.woff);
-    font-weight: 300;
-    font-style: normal;
-   }
 
    * {
     margin: 0;
@@ -125,8 +119,23 @@ main {
 
 .wrapper {
     position: relative;
-    box-sizing: content-box;
+    width: 1263px;
+    height: 472px;
+    left: 50%;
+    transform: translate(-50%);
 }
+
+/* .wrapper {
+
+    position: relative;
+    box-sizing: content-box;
+    background-image: url(/img/four-girls.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+} */
+
 
 .text {
     display: inline-block;
@@ -298,7 +307,7 @@ main {
     left: 10px;
     background-color: rgba( 0, 0, 0, 0.54);
     z-index: 5;
-    display: none;
+    opacity: 0;
 }
 
 button {
@@ -332,7 +341,7 @@ button {
 .cart {
     position: absolute;
     display: inline-flex;
-    justify-content: flex-start;
+    justify-content: space-evenly;
     align-items: center;
     width: 166px;
     height: 50px;
@@ -348,7 +357,6 @@ button {
     font-weight: 300;
     font-size: 30px;
     color: #ffffff;
-    margin: 10px 12px;
 }
 
 .cart-info {    
@@ -357,7 +365,6 @@ button {
     font-size: 14px;
     text-transform: uppercase;
     color: #fefefe;
-    margin: 16px 7px;
 }
 
 .rectangle button:hover {
@@ -369,13 +376,11 @@ button {
 }
 
 .catalog-item:hover .rectangle{
-    display: block;
+    opacity: 1;
 }
 
 img {
     display: block;
-    margin: 0;
-    padding: 0;
     width: 100%;
     object-fit: cover;
 }
