@@ -1,0 +1,360 @@
+@font-face {
+    font-family: "Kaushan Script Regular";
+    src: url(../fonts/KaushanScript-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Montserrat Bold";
+    src: url(../fonts/Montserrat-Bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Montserrat Regular";
+    src: url(../fonts/Montserrat-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Roboto Light Italic";
+    src: url(../fonts/Roboto-LightItalic.ttf);
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Roboto Regular";
+    src: url(../fonts/Roboto-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navigation {
+    width: 1200px;
+    height: 80px;
+    margin: auto;
+}
+
+.logo {
+    float: left;
+    font-family: "Montserrat Bold";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 30px;
+    color: #95e1d3;
+    margin-top: 28px;
+    left: 10px;
+    cursor: pointer;
+}
+
+.logo span:hover {
+    color: #f38181;
+    border-bottom: #f38181 solid 3px;
+    padding-bottom: 8px;
+}
+
+.menu {
+    float: right;
+    font-family: "Montserrat Bold";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    padding: 0;
+    margin-top: 38px;
+}
+
+.list-item {
+    display: inline-block;
+    margin-left: 58px;
+    list-style: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.list-item a {
+    text-decoration: none;
+    color: #95e1d3;
+}
+
+.list-item a:hover {
+    color: #f38181;
+    border-bottom: #f38181 solid 3px;
+    padding-bottom: 8px;
+}
+
+.clearfix::after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.team {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.title {
+    color: #333333;
+    text-align: center;
+    margin-top: 85px;
+}
+
+.title p {
+    font-family: "Kaushan Script Regular";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    margin-top: 0;
+}
+.title p::first-letter {
+    text-transform: uppercase;
+}
+.title h2 {
+    font-family: "Montserrat Bold";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.title article {
+    width: 960px;
+    height: 35px;
+    font-family: "Roboto Regular";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    color: #999999;
+    margin: 50px 112px 0px;
+
+}
+
+.title h2::after {
+    content: " ";
+    clear: both;
+    display: block;
+    background-color: #f38181;
+    height: 3px;
+    width: 60px;
+    margin: 45px auto 0;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    width: 1200px;
+    height: 335px;
+    padding: 0;
+    margin: 66px auto;
+}
+
+.services-item {
+    width: 350px;
+    height: 90px;
+    list-style: none;
+}
+
+.services-item img {
+    float: left;
+    width: 32px;
+}
+
+.service-name {
+    float: right;
+    width: 280px;
+    height: 90px;
+}
+
+.service-name h3 {
+    font-family: "Montserrat Regular";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    margin: 0;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.service-name p {
+    font-family: "Roboto Regular";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    color: #999999;
+    margin-top: 23px;
+    margin-bottom: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    margin: 0 auto;
+}
+
+.team-item {
+    background-image: url(../img/foto-team/graphic-designer.jpg);
+    width: 380px;
+    height: 470px;
+    margin: 95px 0px 85px;
+}
+
+.team-item:nth-child(2) {
+    background-image: url(../img/foto-team/master-of-branding.jpg);
+}
+.team-item:last-child {
+    background-image: url(../img/foto-team/developer.jpg);
+}
+
+.team-item:hover {
+    transform: translate( -10px, -10px);
+    transition-duration: 200ms;
+    box-shadow: 10px 10px  #95e1d3;
+}
+
+.team-item:hover>.gradient {
+    background-image: linear-gradient(to top, #fce38a, #f38181);
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+}
+
+.social {
+    display: flex;
+    width: 380px;
+    height: 470px;
+    visibility: hidden;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.team-item:hover .social {
+    visibility: visible;
+}
+
+
+.social-item {
+    display: inline-block;
+    position: relative;
+    list-style: none;
+    width: 58px;
+    height: 58px;
+    background-color: #fce38c;
+    outline: 1px solid #f9bd87;
+}
+
+.social-item img {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50% , -50%);
+    cursor: pointer;
+}
+
+.social-item:hover {
+    background-color: #95e1d3;
+}
+
+.name {
+    display: block;
+    font-family: "Montserrat Regular";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #333333;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.team-place {
+    display: block;
+    font-family: "Roboto Light Italic";
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+    text-transform: capitalize;
+    color: #999999;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.design {
+    text-transform: lowercase;
+}
+
+.footer {
+    width: 1200px;
+    border-top: 1px solid #e5e5e5;
+    margin-top: 85px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 13px;
+}
+
+.footer-info {
+    float: left;
+    font-family: "Montserrat Regular";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #333333;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+.footer-info span {
+    color: #f38181;
+}
+
+form {
+    float: right;
+}
+
+input {
+    width: 210px;
+    height: 20px;
+    border: 1px solid #e7e7e7;
+    margin: 12px 0 0 0;
+    font-family: "Roboto Light Italic";
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+    padding: 10px;
+}
+input::placeholder {
+    color: #cccccc;
+}
+
+button {
+    width: 150px;
+    height: 42px;
+    margin: 0 10px 0 -4px;
+    border: none;
+    background-color: #95e1d3;
+    color: #ffffff;
+    font-family: "Montserrat Bold";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
