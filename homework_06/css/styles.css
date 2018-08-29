@@ -317,6 +317,16 @@
     color: #f38181;
 }
 
+.footer-info a {
+    text-decoration: none;
+}
+
+.footer-info a:hover {
+    color: #f38181;
+    border-bottom: #f38181 solid 3px;
+    padding-bottom: 8px;
+}
+
 form {
     float: right;
 }
@@ -348,6 +358,7 @@ button {
     font-style: normal;
     font-size: 14px;
     text-transform: uppercase;
+    cursor:pointer;
 }
 
 
