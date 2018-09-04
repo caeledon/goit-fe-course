@@ -227,7 +227,7 @@
     opacity: 0.9;
 }
 
-.social {
+.social-icons {
     display: flex;
     width: 380px;
     height: 470px;
@@ -238,22 +238,22 @@
     margin: 0px;
 }
 
-.team-item:hover .social {
-    visibility: visible;
-}
-
-
-.social-item {
+.social-icons .icon {
     display: inline-block;
     position: relative;
     list-style: none;
-    width: 58px;
-    height: 58px;
+    width: 55px;
+    height: 55px;
     background-color: #fce38c;
     outline: 1px solid #f9bd87;
+    margin-right: 1px;
 }
 
-.social-item img {
+.team-item:hover .social-icons {
+    visibility: visible;
+}
+
+.item-icon img {
     position: absolute;
     top: 50%;
     left:50%;
@@ -261,7 +261,7 @@
     cursor: pointer;
 }
 
-.social-item:hover {
+.icon:hover {
     background-color: #95e1d3;
 }
 
