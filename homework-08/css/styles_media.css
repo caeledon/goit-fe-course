@@ -23,14 +23,14 @@
         font-size: 52px;
         line-height: normal;
         margin-bottom: 25px;
-        margin-top: 120px;
+        margin-top: 125px;
     }
 
     .title-section .subtitle {
         margin-bottom: 35px;
     }
 
-    .title-section .search-button {
+    .search-button {
         padding: 10px 22px 10px 22px;
     }
 
