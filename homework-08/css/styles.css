@@ -1,0 +1,256 @@
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url(../fonts/Montserrat/Montserrat-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: url(../fonts/Montserrat/Montserrat-Bold.ttf); 
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto-Ligth";
+    src: url(../fonts/Roboto/Roboto-Light.ttf); 
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url(../fonts/Roboto/Roboto-Regular.ttf); 
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 320px;
+    height: auto;
+    margin: auto;
+    padding: 0 auto;
+}
+
+header {
+    display: flex;
+    flex-flow: wrap-reverse;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.background {
+    height: 540px;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.10)), url(../images/background.png);
+}
+
+.navigation {
+    display: flex;
+    width: 152px;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.logo {
+    font-family: "Montserrat-Bold", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+    line-height: 1;
+    margin-bottom: 40px;
+}
+
+.button {
+    font-family: "Montserrat-Bold", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #ffffff;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 2px #ffffff solid;
+    padding: 8px 15px 8px 15px;
+    outline: none;
+    cursor: pointer;
+}
+
+.entrance {
+    font-family: "Montserrat-Bold", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.title-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+.title {
+    font-family: "Montserrat-Bold", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 1;
+}
+
+.subtitle {
+    width: 218px;
+    font-family: "Roboto-Ligth", sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.search-button {
+    font-family: "Montserrat Bold", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #ff4e50;
+    border: 2px #ff4e50 solid ;
+    border-radius: 50px;
+    padding: 10px 50px 10px 50px;
+    outline: none;
+    cursor: pointer;
+}
+
+h3 {
+    width: 268px;
+    font-family: "Montserrat-Bold", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1;
+    text-align: center;
+    margin: 70px auto 20px;
+}
+
+.partners {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profiles {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.list-item {
+    width: 214px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.portrait {
+    position: relative;
+    width: 125px;
+    height: 125px;
+    background-repeat: no-repeat;
+}
+
+.first {
+    background-image: url(../images/portrait-1.png);
+}
+
+.second {
+    background-image: url(../images/portrait-2.png);
+}
+
+.third {
+    background-image: url(../images/portrait-3.png);
+}
+
+.fourth {
+    background-image: url(../images/portrait-4.png);
+}
+
+.icon {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    right: 0;
+    bottom: 0;
+    border: 4px #ffffff solid;
+    border-radius: 25px;
+}
+
+.screen {
+    background: url(../images/icon-screen.png), #ff4e50;
+    background-position : 9px 8px;
+    background-repeat : no-repeat;
+}
+
+
+.flask {
+    background: url(../images/icon-flask.png), #ffa507;
+    background-position: 11px 9px;
+    background-repeat: no-repeat;
+}
+
+.coffe {
+    background: url(../images/icon-coffee.png), #1cd7ad;
+    background-position: 9px 8px;
+    background-repeat: no-repeat;
+}
+
+.plane {
+    background: url(../images/icon-plane.png), #4e73db;
+    background-position: 8px 9px;
+    background-repeat: no-repeat;
+}
+
+.name {
+    font-family: "Montserrat-Bold", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #000000;
+    margin-top: 25px;
+
+}
+
+.information {
+    text-align: center;
+    font-family: "Roboto-Light", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #666666;
+    margin-top: 22px;
+}
+
+.button-overview {
+    font-family: "Montserrat-Bold", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #ff4e50;
+    background-color: #ffffff;
+    border: 2px #ff4e50 solid ;
+    border-radius: 50px;
+    margin-bottom: 57px;
+    padding: 13px 74px 13px 74px;
+    cursor: pointer;
+    outline: none;
+}
+
+
+
+
