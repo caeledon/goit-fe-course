@@ -1,7 +1,8 @@
 @media (min-width: 768px) {
     .header {
+        width: 100%;
         position: absolute;
-        left: 49px;
+        left: 0px;
         display: flex;
         justify-content: space-between;
     }
@@ -32,7 +33,8 @@
 
     .title-section {
         max-width: 768px;
-        background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.10)), url(../images/party_tablet.png);
+        padding: 10px;
+        /* background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.10)), url(../images/party_desktop.png); */
     }
 
     .title-section__title {
