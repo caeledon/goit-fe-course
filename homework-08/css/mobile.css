@@ -68,16 +68,18 @@
 }
 
 .title-section {
-    max-width: 320px;
+    min-width: 320px;
     display: flex;
     align-items: center;
     flex-direction: column;
     margin: auto;
     padding: 10px;
     background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.10)), url(../images/party_desktop.png);
-    background-position: center;
+    background-position: 51% 51%;
     background-size: cover;
 }
+
+
 
 .title-section__title {
     font-family: "Montserrat-Bold", sans-serif;

@@ -34,6 +34,7 @@
     .title-section {
         max-width: 768px;
         padding: 10px;
+        background-position: 50% 50%;
         /* background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.10)), url(../images/party_desktop.png); */
     }
 
